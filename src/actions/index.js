@@ -1,4 +1,11 @@
 // Main
+export function onSave (text) {
+  return {
+    type: 'ONSAVE',
+    text: text
+  }
+}
+
 export function addTodo (text) {
   console.log('addTodo')
   return {
